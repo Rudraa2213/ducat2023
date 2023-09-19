@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Ducat from './About';
+import Alpha, { Contact } from './About';
 import { Abcd,Xyz } from './About';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Ducat></Ducat>
+    <Alpha></Alpha>
     <Abcd/>
     <Xyz/>
+    <Contact></Contact>
   </React.StrictMode>
 );
 
