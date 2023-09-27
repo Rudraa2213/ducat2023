@@ -7,6 +7,8 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Mynav from './modules/javascript/Mynav';
 import Myinfo from './modules/javascript/Myinfo';
+import Mycontactus from './modules/javascript/Mycontactus';
+import Myaxios from './modules/javascript/Myaxios';
 
 
 
@@ -17,8 +19,11 @@ root.render(
       <Routes>
         <Route path='/' element={<Myheader/>}/>
         <Route path='/Myinfo' element={<Myinfo/>}/>
+        <Route path='/Myaxios' element={<Myaxios/>}/>
         <Route path='/Mynav' element={<Mynav/>}/>
+        <Route path='mycontact' element={<Mycontactus/>}/>
         <Route path='*' element={<Error/>}/>
+
       </Routes>
       </BrowserRouter>
    </React.StrictMode>

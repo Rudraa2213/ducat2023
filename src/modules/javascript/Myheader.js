@@ -16,6 +16,9 @@ export default function Myheader() {
                     <Link className="nav-link active" aria-current="page" to="Myinfo">Info</Link>
                     </li>
                     <li className="nav-item">
+                    <Link className="nav-link active" aria-current="page" to="Myaxios">Myaxios</Link>
+                    </li>
+                    <li className="nav-item">
                     <Link className="nav-link" to="Mylink">Link</Link>
                     </li>
                     <li className="nav-item dropdown">
@@ -30,7 +33,7 @@ export default function Myheader() {
                     </ul>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link disabled" aria-disabled="true">Disabled</Link>
+                    <Link className="nav-link" to="mycontact">ContactUs</Link>
                     </li>
                 </ul>
                 <form className="d-flex" role="search">
